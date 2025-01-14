@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getMessaging, isSupported } from "firebase/messaging";
+import { getMessaging, isSupported, Messaging } from "firebase/messaging";
 // TODO: Add SDKs for Firebase products that you want to use
 
 const firebaseConfig = {
@@ -15,7 +15,7 @@ const firebaseConfig = {
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 
-let messaging;
+let messaging: Messaging | undefined;
 if (typeof window !== "undefined" && isSupported()) {
   messaging = getMessaging(app);
 }
