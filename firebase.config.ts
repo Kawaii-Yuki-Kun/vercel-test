@@ -12,12 +12,17 @@ const firebaseConfig = {
   appId: "1:282214631900:web:daea41822b702195cf6719",
 };
 
+
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 
 let messaging: Messaging | undefined;
-if (typeof window !== "undefined" && isSupported()) {
-  messaging = getMessaging(app);
+if (typeof window !== "undefined") {
+  isSupported().then((supported) => {
+    if (supported) {
+      messaging = getMessaging(app);
+    }
+  });
 }
 
 export { messaging };
