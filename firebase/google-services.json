@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "notification-service-eurisko",
+  "private_key_id": "6f2e6c707af945474fbe11b134bd545f1d0b6d4b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDFVTG5GbhiRmiG\nGgCoT/mOQ7odzEGgconfIqtIwbogedzOV4vo5wbrNo/INNdH0rONrERjX2V/B5xf\ndCUPRWE8ZqvRPaNP6+dJv7lwLRvhyzTSMNsTIXTRp1M7sN/5A/WrK9ola5VyPIgU\nPGkKi3JoZUykHm39Ix72q3UV8Z0zTN2kslDfr6pFvRQplOCKWHpeaCe6we4mdBpc\nLGafhf/rluumHmOz9l9aKrcJjee4sENWGD5d3KXv7FH9498dCNomTlE9/7B7wwou\nlgqtTgwGj2YNx937GBOGQYaRT4zxN1RCbWiZFOtCWCiZTRbSjm2NuEdpKM/5uLPz\nmxQc4nMbAgMBAAECggEATcMu3wSVtpSMaBwjGjC55SgnVcrCKdo5Hqdo3DkLgfTD\n4MR7LAKupU5RBtJb67/KZg/2uzpCovZ61trMJ+JtWQIUv1YM31fVQyi8iMod7LLJ\nU/NQwY8zm9LWZ/VhrZ2z2Apl4s0sjWHxNhhARJmDMkSJGTusmE6YyxfyAf2+txHo\nOHZNdHtmpB7vqev7UD3givo9E5ykAlszymXXWD0Jbmxak4dltpU3ZrXEFAhg4gQz\nbeBICFw16E9ykudaFfH568P206iN8zLCEUx2kr4+4xitFiu52jTWVoYhS6HG77R+\nNlDAMMC5jEyU/8XSIIHa4CIkCA2rlxVCsk1+0hkWkQKBgQDiCmsWOYpySut7oIv4\nbfZSNBzJLXBMgRflzeiBYRKP3FQctcgk7/2nwYmbslfNTNc2pPxbA4qN+D6QK0HP\n5TMLP99tOYIc8hnDyPyl/YIte/ebadORAfJ6oEmrAYsr/cOKKks6ehIAtsyCbwwA\no9iMBlPriVE6aZ29D8RKqDdEBwKBgQDffLbI/A7xr2OMq+QACZPZsIB1ydPYfeV9\n6YDhMui0reH+OPnUIIuFdaWACKPxwZ6rpdTWFWMFgVmNOT91woe4C2NYwDMZBZSG\nh7Z1P5lCgWYCXC4H4kMSVSlxFX7tGVLcZ5ALkjSOEjwyj+OIltTajPPo8nDf4RoN\n/YzUICfbTQKBgQCUTk+agmBSwtMkBt8vPT6LCsQEPrrahyydy26MTJt4JhBN0fsi\nOQ/NHE9kByxSd+MQaElmkbk7kq/BuY/xjijibaLzL/MteK7s5RbW9bCOlTKNFm8I\nSiXEzRvohhfA4juEkGFRWbwsGcOupJtUZCv1G0W+WRchYyBqZkjczueLywKBgQC9\n724hLic9PEQsv8GMTpd7QUhL0vXaXlT2R8cinXOsasNQnfelUuuAx1WalL1Qr688\nTjmuoIqBmUcUgPzwBh32SqdqPB6xO07ZbumgiCamoPajNthgFunN4NbRpuUyeH01\nmEaRrvY/cDv89ND5usa332dEKRfJDbRpA332okV9WQKBgApnFfIjF7YuoChcDKvP\nrmyHlBAbv3sXTXjzli0WzzBR+4Rt8KlJbtNikhlcnF8wP0AjIVFXepmWRCyuTFS/\nB1WY7gnwSYBhhrSisxuS5dokJVOUJ3n3eOXX0zDH83DkJaJWHTh1ugkPaExyzRLU\nwnpKEY2WP3nWZbTW1P/IwvG3\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-xitc3@notification-service-eurisko.iam.gserviceaccount.com",
+  "client_id": "107643887180654759559",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-xitc3%40notification-service-eurisko.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
