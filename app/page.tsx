@@ -19,14 +19,14 @@ export default function Home() {
 
   useEffect(() => {
     async function requestPermissions() {
-      const token = await getToken(messaging, {
-        vapidKey:
-          "BFpp9y96fdhrElm3etRhyE6of81T4Re38WUz2V0RJ21h0UFXflUjB1lV5dMi8A4Q9Ueb_kXjPCpmahmkPTJfuyw",
-      });
-
-      if (token) {
+      if (messaging) {
+        const token = await getToken(messaging, {
+          vapidKey:
+            "BFpp9y96fdhrElm3etRhyE6of81T4Re38WUz2V0RJ21h0UFXflUjB1lV5dMi8A4Q9Ueb_kXjPCpmahmkPTJfuyw",
+        });
         setFcmToken(token);
-        console.log("FCM Token:", token);
+      } else {
+        console.log("Firebase messaging is not supported in this environment.");
       }
     }
 
@@ -35,9 +35,9 @@ export default function Home() {
 
   return (
     <div>
-      <h1>FCM Notifications Test</h1>
-      <button onClick={handleRequestPermission}>Enable Notifications</button>
-      {fcmToken && <p>Your FCM Token: {fcmToken}</p>}
+      <h1>Home Page</h1>
+      <button onClick={handleRequestPermission}>Request Notification Permission</button>
+      {fcmToken && <p>FCM Token: {fcmToken}</p>}
     </div>
   );
 }
